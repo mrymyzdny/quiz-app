@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(205, 252, 224);
+}
+
+
+
+
+/* Start Page */
+.app-start {
+    width: 400px;
+    height: 200px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.start-btn {
+    width: 400px;
+    height: 35px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+
+
+ /* display  */
+.hide {
+    display: none;
+}
+
+
+
+
+/* Quiz Page */
+.app-wrap {
+    width: 400px;
+    height: 320px;
+    background-color: #fff;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0px 0px 10px #868686;
+}
+
+.quiz-container {
+    margin: 20px;
+    padding: 10px;
+}
+
+.quiz-text {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 5px;
+    list-style-type: none;
+}
+
+input {
+    margin-top: 20px;
+}
+
+
+
+
+/*  Button  */
+.next-btn {
+    width: 400px;
+    height: 35px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.next-btn , .start-btn {
+    border: none;
+    font-weight: bold;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0px 0px 10px white;
+    background-image: linear-gradient(to right , #a3e6da , #36e6c8 );
+}
+
+.next-btn:hover , .start-btn:hover {
+    background-image: linear-gradient(to right , #cbfdf4 , #2affdb );
+}
+
+
+
+/* End Page */
+.app-end {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0px 0px 10px #868686;
+}
+
+.app-end h2 {
+    margin-top: 80px;
+}
